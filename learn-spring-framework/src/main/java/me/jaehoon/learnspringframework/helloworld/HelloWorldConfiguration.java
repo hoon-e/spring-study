@@ -1,4 +1,4 @@
-package me.jaehoon.learnspringframework;
+package me.jaehoon.learnspringframework.helloworld;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -47,4 +47,7 @@ public class HelloWorldConfiguration {
     public Person person3MethodCall(String name, int age, Address address2) {
         return new Person(name, age, address2);
     }
+
+    // 매개변수 정의를 Primary와, Qualifier 어노테이션을 이용하여 정의할 수 있다.
+    // Qualifier 어노테이션은 매개변수에 Qualifier 어노테이션을 붙여줌으로써 설정할 수가 있다.
 }

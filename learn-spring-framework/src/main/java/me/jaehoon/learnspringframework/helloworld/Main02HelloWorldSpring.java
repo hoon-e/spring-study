@@ -1,4 +1,4 @@
-package me.jaehoon.learnspringframework;
+package me.jaehoon.learnspringframework.helloworld;
 
 import ch.qos.logback.classic.Logger;
 import ch.qos.logback.classic.LoggerContext;
